@@ -3,6 +3,8 @@ Snail Mail Notifier
 Get snail mail notifications automatically with an arduino, ethernet shield, TP-Link 703N and a snap action switch.  
 
 **Overview** 
+This project was inspired by Matt Richardson's Snail Mail Push Alerts project: http://blog.makezine.com/2010/12/29/snail-mail-push-alerts/
+
 An arduino with ethernet shield is wired to a snap action switch installed outside in the mailbox. The arduino is plugged directly into a TP-Link 703N router that has been modified to work as a wireless client.
 
 The sketch on the arduino is designed to check if the mailbox is open or not. If the box is opened, it will send two things:

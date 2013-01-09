@@ -1,0 +1,3 @@
+[submodule "avviso"]
+	path = avviso
+	url = git://github.com/colagrosso/avviso.git
