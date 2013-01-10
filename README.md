@@ -30,7 +30,7 @@ http://www.shatteredhaven.com/2013/01/1392365-wireless-arduino-snail-mail.html
 **Files**
 - SnailMailNotifier.ino - arduino sketch
 - SnailMailNotifier.fzz - frizing schematic of arduino wiring
-- Avvio library for arudino
+- Avviso library for arudino
 
 **Materials Used**
 - Arduino Uno
