@@ -1,4 +1,4 @@
-Snail Mail Notifier
+Wireless Snail Mail Notifier
 ==============
 Get snail mail notifications automatically with an arduino, ethernet shield, TP-Link 703N and a snap action switch.  
 
@@ -8,8 +8,8 @@ This project was inspired by Matt Richardson's Snail Mail Push Alerts project: h
 An arduino with ethernet shield is wired to a snap action switch installed outside in the mailbox. The arduino is plugged directly into a TP-Link 703N router that has been modified to work as a wireless client.
 
 The sketch on the arduino is designed to check if the mailbox is open or not. If the box is opened, it will send two things:
-- push notification to iOS app Prowl (done with Avviso- http://avvisoapp.com/- arduino library - on github). This can also be configured to work with Android.
-- email to end user (done with a web server? and php code)
+- push notification to iOS app Prowl (done with Avviso library on the arduino). This can also be configured to work with Android.
+- email to end user (done with php code - this can be easily found on the web)
 
 The arduino will then wait 5 minutes and check again. If the mailbox is still open, it will send out the two notifications again. It will repeat this 5 times and then stop. 
 
@@ -17,8 +17,10 @@ The reason the 5 minute delay is in the event that the mailbox is open for longe
 
 The arduino will also turn a green LED on to indicate the mailbox has been opened. This is a great visual cue for when you're around but haven't checked email or device notifications lately. 
 
-**tutorial & photos**
+To reset the device for the next day, simply hit the reset button. 
 
+**tutorial & photos**
+http://www.shatteredhaven.com/2013/01/1392365-wireless-arduino-snail-mail.html
 
 **Software Used**
 - Avviso library
@@ -29,7 +31,6 @@ The arduino will also turn a green LED on to indicate the mailbox has been opene
 - SnailMailNotifier.ino - arduino sketch
 - SnailMailNotifier.fzz - frizing schematic of arduino wiring
 - Avvio library for arudino
-- ethernet library for arduino
 
 **Materials Used**
 - Arduino Uno
